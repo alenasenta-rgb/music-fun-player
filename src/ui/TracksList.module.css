@@ -1,0 +1,16 @@
+.tracks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* src\ui\tracks.css */
+
+.track {
+  border: 2px solid #747bff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.track.selected {
+  border-color: gold;
+}

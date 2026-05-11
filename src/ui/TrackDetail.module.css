@@ -1,0 +1,10 @@
+.track {
+  border: 2px solid #48e0fe;
+  border-radius: 8px;
+  padding: 10px;
+}
+/* src\ui\track-detail.css */
+
+.track h2 {
+  color: #48febe
+}
