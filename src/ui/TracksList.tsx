@@ -33,10 +33,10 @@ export function TracksList({selectedTrackId, onTrackSelect}: Props) {
         onTrackSelect?.(trackId)
     }
 
-
     return <div> 
-        <button onClick={handleResetClick}>reset</button>
-        <hr/>
+        <button className={styles.reset} onClick={handleResetClick}>
+            reset
+        </button>
         <ul className={styles.tracks}>
             { 
             tracks.map((track)=> {

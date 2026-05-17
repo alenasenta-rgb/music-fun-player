@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,6 +65,43 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #13001e;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.title {
+  font-size: 42px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #d9bbff;
+}
+
+.layout {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
 }
 
 

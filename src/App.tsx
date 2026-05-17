@@ -1,10 +1,4 @@
-// урок 8,9
-
 import { useEffect, useState } from "react"
-
-
-
- 
 
 export function App() {
 
@@ -53,8 +47,6 @@ export function App() {
       </div>
   }
   
-
-
   return (
     <div>
       <h1>Musicfun</h1>
